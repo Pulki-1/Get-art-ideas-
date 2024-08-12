@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Art Style Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="artContainer">
+        <h1 class="appHeader">AI-Powered Art Style Generator</h1>
+        <div class="optionsSection">
+            <label for="timeInput" class="optionLabel">Choose Time Period:</label>
+            <input type="time" id="timeInput" class="timeSelector">
+            
+            <label for="styleOption" class="optionLabel">Select Style Option:</label>
+            <select id="styleOption" class="styleSelector">
+                <option value="Freestyle">Abstract</option>
+                <option value="real">Real</option>
+                <option value="unique">Unique</option>
+                <option value="latest">Latest</option>
+            </select>
+        </div>
+        <button id="fetchArtStyle" class="fetchButton">Generate Art Style</button>
+        <div class="resultBox">
+            <p id="styleResult" class="styleText">Your generated art style will appear here!</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

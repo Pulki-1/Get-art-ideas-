@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.artContainer {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.appHeader {
+    color: #2b2b2b;
+    font-size: 2.3rem;
+    margin-bottom: 25px;
+}
+
+.optionsSection {
+    margin-bottom: 25px;
+}
+
+.optionLabel {
+    color: #7f8c8d;
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.timeSelector,
+.styleSelector {
+    border: 2px solid #2980b9;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.timeSelector:focus,
+.styleSelector:focus {
+    border-color: #1abc9c;
+}
+
+.fetchButton {
+    background-color: #2980b9;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fetchButton:hover {
+    background-color: #1abc9c;
+}
+
+.resultBox {
+    margin-top: 20px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.styleText {
+    color: #34495e;
+    font-size: 1.25rem;
+    margin: 0;
+}
